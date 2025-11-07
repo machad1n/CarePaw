@@ -48,4 +48,3 @@ O desenvolvimento da plataforma utiliza as seguintes tecnologias front-end:
 GitHub: [machad1n](https://github.com/machad1n/)
 
 ---
-
