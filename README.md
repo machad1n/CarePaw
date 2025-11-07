@@ -2,7 +2,7 @@
 
 Bem-vindo ao **CarePaw**, uma plataforma digital desenvolvida com o objetivo de **promover o bem-estar de cães e gatos** por meio de uma interface amigável, acessível e intuitiva.  
 
-Este projeto faz parte da disciplina **Interação Humano-Computador (IHC)** e está vinculado ao **Projeto Integrador 1**, disponível em:  
+Este projeto faz parte da disciplina **Interação Humano-Computador (IHC)** e está vinculado ao **Projeto Integrador 1**. Disponível em:  
 👉 [Projeto Integrador 1 — GitHub](https://github.com/machad1n/Projeto-Integrador1)
 
 ---
