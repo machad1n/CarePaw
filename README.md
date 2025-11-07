@@ -4,15 +4,17 @@ Bem-vindo ao **CarePaw**, uma plataforma digital desenvolvida com o objetivo de 
 
 Este projeto faz parte da disciplina **Interação Humano-Computador (IHC)** e está vinculado ao **Projeto Integrador 1**, disponível em:  
 👉 [Projeto Integrador 1 — GitHub](https://github.com/machad1n/Projeto-Integrador1)
+
 ---
 
 ## 🎯 Objetivo do Projeto
 
 O **CarePaw** busca oferecer uma **experiência interativa** que conecte pessoas interessadas na causa do bem-estar animal, permitindo que **usuários colaborem e visualizem dados** relacionados a cães e gatos em situação de vulnerabilidade.  
-Por meio de um **dashboard intuitivo**, será possível acessar informações, acompanhar estatísticas. Além de outras ferramentas para promover ações voltadas ao cuidado e à melhoria da qualidade de vida desses animais.
+Por meio de um **dashboard intuitivo**, será possível acessar informações, acompanhar estatísticas, além de outras ferramentas para promover ações voltadas ao cuidado e à melhoria da qualidade de vida desses animais.
+
 ---
 
-## 🧭 Foco em IHC 
+## 🧭 Foco em IHC
 
 Este projeto tem como principal pilar os conceitos de **Interação Humano-Computador**, priorizando:
 
@@ -41,10 +43,13 @@ O desenvolvimento da plataforma utiliza as seguintes tecnologias front-end:
 - [ ] Interface responsiva e acessível, garantindo uma boa experiência em diferentes dispositivos.  
 - [ ] Design centrado na experiência do usuário, com foco em empatia e engajamento social.  
 
+---
 
 ## 👨‍💻 Integrantes
 
-**Pedro Henrique Machado de Oliveira** | RA: 22502885  
+**Pedro Henrique Machado de Oliveira**  
+RA: 22502885  
 GitHub: [machad1n](https://github.com/machad1n/)
 
 ---
+
