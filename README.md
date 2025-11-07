@@ -38,11 +38,11 @@ O desenvolvimento da plataforma utiliza as seguintes tecnologias front-end:
 
 ## 📊 Funcionalidades Principais (em desenvolvimento)
 
-- [ ] Dashboard interativo com dados sobre cães e gatos em situação de vulnerabilidade.  
-- [ ] Visualização de estatísticas e informações sobre adoções, cuidados e bem-estar animal.  
-- [ ] Espaço colaborativo para que usuários possam contribuir com informações e iniciativas.  
-- [ ] Interface responsiva e acessível, garantindo uma boa experiência em diferentes dispositivos.  
-- [ ] Design centrado na experiência do usuário, com foco em empatia e engajamento social.  
+- [ ] **Dashboard Interativo:** acesso a dados e estatísticas relacionadas ao bem-estar de cães e gatos.  
+- [ ] **Conexão com ONGs e Protetores:** espaço dedicado à divulgação de animais disponíveis para adoção e campanhas de apoio.  
+- [ ] **Espaço Colaborativo:** ambiente onde usuários, ONGs e a comunidade podem compartilhar informações, eventos e iniciativas.  
+- [ ] **Recursos de Engajamento Social:** ferramentas para doações, voluntariado e acompanhamento de causas e projetos.  
+- [ ] **Interface Responsiva e Acessível:** design centrado na experiência do usuário, garantindo navegação intuitiva em qualquer dispositivo.
 
 ---
 
