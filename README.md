@@ -10,8 +10,8 @@ Disponível em:
 
 ## 🎯 Objetivo do Projeto
 
-O **CarePaw** busca oferecer uma **experiência interativa** que conecte pessoas interessadas na causa do bem-estar animal, permitindo que **usuários colaborem e visualizem dados** relacionados a cães e gatos em situação de vulnerabilidade.  
-Por meio de um **dashboard intuitivo**, será possível acessar informações, acompanhar estatísticas, além de outras ferramentas para promover ações voltadas ao cuidado e à melhoria da qualidade de vida desses animais.
+O **CarePaw** busca oferecer uma **experiência interativa** que conecte pessoas interessadas na causa do bem-estar animal, permitindo que **usuários colaborem e visualizem dados** relacionados a cães e gatos em situação de vulnerabilidade. Por meio de um **dashboard intuitivo**, será possível acessar informações, acompanhar estatísticas.
+Além de outras ferramentas para promover ações voltadas ao cuidado e à melhoria da qualidade de vida desses animais.
 
 ---
 
