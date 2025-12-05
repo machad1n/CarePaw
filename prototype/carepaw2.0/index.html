@@ -1,0 +1,488 @@
+<!DOCTYPE_HTML>
+<html lang="pt-BR">
+<head>
+    <!-- CABECALHO_METADADOS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CarePaw - Plataforma digital para cuidados com cães e gatos. Conectamos donos, cuidadores e ONGs para promover o bem-estar animal.">
+    <meta name="keywords" content="pets, cães, gatos, cuidados, adoção, ONGs, bem-estar animal">
+    <title>CarePaw - Cuidado e Proteção para Cães e Gatos</title>
+    
+    <!-- ESTILOS_FONTES_ICON -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<!-- CORPO_PAGINA -->
+<body>
+    <!-- CABECALHO_NAV -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-paw"></i>
+                    <span>CarePaw</span>
+                </div>
+                
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Início</a></li>
+                    <li><a href="#services" class="nav-link">Serviços</a></li>
+                    <li><a href="#dashboard" class="nav-link">Dashboard</a></li>
+                    <li><a href="#adoption" class="nav-link">Adoção</a></li>
+                    <li><a href="#ongs" class="nav-link">ONGs</a></li>
+                    <li><a href="#contact" class="nav-link">Contato</a></li>
+                </ul>
+                
+                <div class="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- SECAO_HERO -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-up">
+                <h1>Cuidado e Proteção para Suas <span class="highlight">Patinhas</span></h1>
+                <p>Conectamos donos de pets, cuidadores profissionais e ONGs em uma plataforma digital colaborativa para promover o bem-estar de cães e gatos.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">
+                        <i class="fas fa-heart"></i>
+                        Encontrar Cuidador
+                    </a>
+                    <a href="#adoption" class="btn btn-secondary">
+                        <i class="fas fa-home"></i>
+                        Adotar um Pet
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left" data-aos-delay="200">
+                <img src="images/hero-pets.png" alt="Cães e gatos felizes juntos" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECAO_SERVICOS -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Nossos Serviços</h2>
+                <p>Soluções completas para o cuidado do seu pet</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-walking"></i>
+                    </div>
+                    <h3>Passeios</h3>
+                    <p>Cuidadores qualificados para levar seu pet para passear com segurança e carinho.</p>
+                    <a href="#" class="service-link">Solicitar Passeio</a>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Cuidados Domiciliares</h3>
+                    <p>Cuidadores visitam sua casa para alimentar, brincar e cuidar do seu pet.</p>
+                    <a href="#" class="service-link">Agendar Cuidado</a>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Adoção Responsável</h3>
+                    <p>Conectamos pets em busca de um lar com famílias amorosas.</p>
+                    <a href="#" class="service-link">Ver Pets</a>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>Apoio a ONGs</h3>
+                    <p>Aumentamos a visibilidade de ONGs e facilitamos doações e voluntariado.</p>
+                    <a href="#" class="service-link">Conhecer ONGs</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECAO_DASHBOARD -->
+    <section id="dashboard" class="dashboard">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>PI 1 — Dashboard CarePaw</h2>
+                <p>Protótipo elaborado pelo grupo.</p>
+            </div>
+
+            <!-- KPIS_DASHBOARD -->
+            <div class="kpis">
+                <div class="card kpi">
+                    <div class="label">População Total Estimada de Pets</div>
+                    <div class="value" id="k_population">—</div>
+                    <div class="small">Estimativa Geral</div>
+                </div>
+                <div class="card kpi">
+                    <div class="label">Taxa de Crescimento Anual de Gatos</div>
+                    <div class="value" id="k_growth_cats">—</div>
+                    <div class="small">Ano 2023</div>
+                </div>
+                <div class="card kpi">
+                    <div class="label">Animais em Vulnerabilidade</div>
+                    <div class="value" id="k_vulnerable">—</div>
+                    <div class="small">Estimativa 2024</div>
+                </div>
+                <div class="card kpi">
+                    <div class="label">Taxa de Abandono (Total)</div>
+                    <div class="value" id="k_abandon_rate">—</div>
+                    <div class="small">Mars Petcare</div>
+                </div>
+                <div class="card kpi">
+                    <div class="label">Animais sob Tutela de ONGs</div>
+                    <div class="value" id="k_tutela">—</div>
+                    <div class="small">Estimativa 2024</div>
+                </div>
+                <div class="card kpi">
+                    <div class="label">Taxa de Adoção nos Lares</div>
+                    <div class="value" id="k_adoption">—</div>
+                    <div class="small">Golden/Opinion Box 2025</div>
+                </div>
+                <div class="card kpi">
+                    <div class="label">Taxa de Castração de Gatos</div>
+                    <div class="value" id="k_castration_cats">—</div>
+                    <div class="small">Mars Petcare</div>
+                </div>
+                <div class="card kpi">
+                    <div class="label">Casos de Maus-tratos (RJ)</div>
+                    <div class="value" id="k_abuse_cases">—</div>
+                    <div class="small">Rio de Janeiro 2024</div>
+                </div>
+                <div class="card kpi">
+                    <div class="label">Municípios sem Acolhimento</div>
+                    <div class="value" id="k_no_shelter">—</div>
+                    <div class="small">Pesquisa DPDA/MMA 2023</div>
+                </div>
+                <div class="card kpi">
+                    <div class="label">Pena Máxima para Maus-tratos</div>
+                    <div class="value" id="k_max_penalty">5 Anos</div>
+                    <div class="small">Lei Federal 14.064/20</div>
+                </div>
+            </div>
+
+            <!-- GRID_GRAFICOS_TABELA -->
+            <div class="dashboard-grid">
+                <div class="charts-area">
+                    <div class="charts">
+                        <!-- GRAFICO_PRINCIPAL -->
+                        <div class="card chart-box">
+                            <canvas id="chartMain"></canvas>
+                        </div>
+
+                        <!-- GRAFICO_DISTRIBUICAO_INDICADORES -->
+                        <div class="row">
+                            <div class="card chart-box" style="flex:1">
+                                <canvas id="chartDistribution"></canvas>
+                            </div>
+                            <div class="card indicators-panel">
+                                <h4>Indicadores</h4>
+                                <div id="quickList" class="small"></div>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+
+                    <!-- TABELA_DADOS -->
+                    <div class="card table-container">
+                        <h3>Tabela — dataset (linhas do arquivo)</h3>
+                        <div class="table-wrapper">
+                            <table id="tbl">
+                                <thead>
+                                    <tr>
+                                        <th>Abrangência</th>
+                                        <th>Ano</th>
+                                        <th>Categoria</th>
+                                        <th>Tipo</th>
+                                        <th>Métrica</th>
+                                        <th>Valor</th>
+                                        <th>Fonte</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SIDEBAR_KPIS -->
+                <aside class="kpis-sidebar">
+                    <div class="card">
+                        <h3>KPIs</h3>
+                        <hr>
+                        <div class="small" id="kpimap"></div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECAO_ADOCAO -->
+    <section id="adoption" class="adoption">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Pets para Adoção</h2>
+                <p>Encontre seu novo melhor amigo</p>
+            </div>
+            
+            <div class="pets-grid">
+                <div class="pet-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="pet-image">
+                        <img src="images/golden-retriever.jpg" alt="Max - Golden Retriever" class="pet-img">
+                    </div>
+                    <div class="pet-info">
+                        <h4>Max</h4>
+                        <p>Golden Retriever • 2 anos • Macho</p>
+                        <div class="pet-tags">
+                            <span class="tag">Brincalhão</span>
+                            <span class="tag">Carinhoso</span>
+                        </div>
+                        <button class="btn btn-primary btn-small">Conhecer Max</button>
+                    </div>
+                </div>
+                
+                <div class="pet-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pet-image">
+                        <img src="images/pets-together.jpg" alt="Luna - Siamês" class="pet-img">
+                    </div>
+                    <div class="pet-info">
+                        <h4>Luna</h4>
+                        <p>Siamês • 1 ano • Fêmea</p>
+                        <div class="pet-tags">
+                            <span class="tag">Independente</span>
+                            <span class="tag">Carinhosa</span>
+                        </div>
+                        <button class="btn btn-primary btn-small">Conhecer Luna</button>
+                    </div>
+                </div>
+                
+                <div class="pet-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="pet-image">
+                        <img src="images/dog-cat-friendship.jpg" alt="Buddy - Vira-lata" class="pet-img">
+                    </div>
+                    <div class="pet-info">
+                        <h4>Buddy</h4>
+                        <p>Vira-lata • 3 anos • Macho</p>
+                        <div class="pet-tags">
+                            <span class="tag">Leal</span>
+                            <span class="tag">Protetor</span>
+                        </div>
+                        <button class="btn btn-primary btn-small">Conhecer Buddy</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="adoption-cta" data-aos="fade-up" data-aos-delay="400">
+                <a href="#" class="btn btn-secondary">Ver Todos os Pets</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECAO_ONGS -->
+    <section id="ongs" class="ongs">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>ONGs Parceiras</h2>
+                <p>Organizações dedicadas ao bem-estar animal</p>
+            </div>
+            
+            <div class="ongs-grid">
+                <div class="ong-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="ong-logo">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h4>Amigos dos Animais DF</h4>
+                    <p>Resgate, cuidado e adoção responsável de cães e gatos em Brasília.</p>
+                    <div class="ong-stats">
+                        <span><i class="fas fa-home"></i> 150+ adoções</span>
+                        <span><i class="fas fa-medkit"></i> 300+ resgates</span>
+                    </div>
+                    <a href="#" class="btn btn-outline">Conhecer ONG</a>
+                </div>
+                
+                <div class="ong-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="ong-logo">
+                        <i class="fas fa-paw"></i>
+                    </div>
+                    <h4>Patinhas Carentes</h4>
+                    <p>Cuidados veterinários e reabilitação de animais em situação de risco.</p>
+                    <div class="ong-stats">
+                        <span><i class="fas fa-home"></i> 200+ adoções</span>
+                        <span><i class="fas fa-medkit"></i> 500+ resgates</span>
+                    </div>
+                    <a href="#" class="btn btn-outline">Conhecer ONG</a>
+                </div>
+                
+                <div class="ong-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="ong-logo">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h4>Proteção Animal Brasília</h4>
+                    <p>Combate aos maus-tratos e promoção da guarda responsável.</p>
+                    <div class="ong-stats">
+                        <span><i class="fas fa-home"></i> 100+ adoções</span>
+                        <span><i class="fas fa-medkit"></i> 250+ resgates</span>
+                    </div>
+                    <a href="#" class="btn btn-outline">Conhecer ONG</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECAO_CONTATO -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Entre em Contato</h2>
+                <p>Tem dúvidas ou quer fazer parte da nossa comunidade?</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contato@carepaw.com.br</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p>(61) 99999-9999</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Localização</h4>
+                            <p>Brasília, DF</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <!-- FORMULARIO_CONTATO -->
+                <form class="contact-form" data-aos="fade-left">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Seu email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <select id="subject" name="subject" required>
+                            <option value="">Selecione o assunto</option>
+                            <option value="cuidador">Quero ser cuidador</option>
+                            <option value="servicos">Contratar serviços</option>
+                            <option value="ong">Sou de uma ONG</option>
+                            <option value="adocao">Adoção</option>
+                            <option value="outros">Outros</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Sua mensagem" rows="5" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Enviar Mensagem
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- RODAPE -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-paw"></i>
+                        <span>CarePaw</span>
+                    </div>
+                    <p>Conectando corações e patinhas para um mundo melhor para nossos pets.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#">Passeios</a></li>
+                        <li><a href="#">Cuidados</a></li>
+                        <li><a href="#">Adoção</a></li>
+                        <li><a href="#">ONGs</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Sobre</h4>
+                    <ul>
+                        <li><a href="#">Nossa História</a></li>
+                        <li><a href="#">Equipe</a></li>
+                        <li><a href="#">Missão</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Privacidade</a></li>
+                        <li><a href="#">Cookies</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 CarePaw. Projeto acadêmico - Centro Universitário de Brasília (CEUB)</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPTS_JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/charts.js"></script>
+</body>
+</html>
